@@ -1,22 +1,18 @@
-// 2. Calculate the area of a circle and modify the same program to calculate the
-// volume of a cylinder given its radius and height.
+// 3. Write a program to convert Celsius (Centigrade degrees temperature to
+// Fahrenheit).
 
 #include <stdio.h>
 
 int main()
 {
-    int radius;
-    printf("Enter the radius of the circle: ");
-    scanf("%d", &radius);
+    float celsius;
+    printf("Enter the temperature in celsius: ");
+    scanf("%f", &celsius);
 
-    float area = 3.14 * radius * radius;
+    float fah;
+    fah = (celsius * 1.8) + 32;
 
-    printf("The area of the circle is: %f\n", area);
-
-    int height = 5;
-    float volume = 3.14 * radius * radius * height;
-
-    printf("The volume of cylinder is: %f\n", volume);
-
+    printf("Fahrenheit temperature is: %f", fah);
+    
     return 0;
 }
