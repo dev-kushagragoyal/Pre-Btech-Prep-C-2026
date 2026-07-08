@@ -1,2 +1,5 @@
-# Pre-Btech-Prep-C-2026
-Learning C programming from scratch before starting B.Tech CSE (2026). This repository documents my progress through concepts, practice programs, exercises, and hands-on coding.
+# Pre-BTech Prep C 2026
+
+My journey of learning C programming before beginning B.Tech.
+
+This repository includes practice programs, exercises, and projects created while building a strong programming foundation.
