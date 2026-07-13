@@ -20,7 +20,6 @@ int main()
     scanf("%d", &n);
 
     printf("The %dth element of fibonacci series is: %d", n, fibonacci(n));
-    fibonacci(n);
 
     return 0;
 }
